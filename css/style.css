@@ -108,7 +108,7 @@
     color: var(--primary);
 }
 
-@media (max-width: 650px) {
+@media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;
         padding: 10px 0;
@@ -134,7 +134,7 @@
     transition: .5s;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
         border: none;
@@ -278,7 +278,7 @@
 
 
 /*** Feature ***/
-@media (min-width: 650px) {
+@media (min-width: 992px) {
     .container.feature {
         max-width: 100% !important;
     }
@@ -396,14 +396,14 @@
     z-index: 1;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 768px) {
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
     }
 }
 
-@media (min-width: 750px) {
+@media (min-width: 992px) {
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
